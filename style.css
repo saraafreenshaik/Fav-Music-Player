@@ -36,7 +36,9 @@ body {
         "https://source.unsplash.com/Qrspubmx6kE/640x360");
     background-size: cover;
     background-position: center;
-    border-radius: 15%;
+    border: 8px solid white;
+    box-shadow:4px  black;
+    border-radius: 50%;
     }
     
     /* Changing the font sizes to suitable ones */
@@ -109,8 +111,8 @@ body {
     
     /* Define the slider width so that it scales properly */
     .slider_container {
-    width: 75%;
-    max-width: 400px;
+    width: 100%;
+    max-width: 1000px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -148,9 +150,9 @@ body {
     }
     
     .seek_slider {
-    width: 500px;
+    width: 1000px;
     height: 10px;
-    border-radius: 10px;
+    border-radius: 20px;
     }
     
     .volume_slider {
@@ -159,7 +161,7 @@ body {
    
     .current-time,
     .total-duration {
-    padding: 10px;
+    padding: 40px;
     color: aliceblue;
     
     }
