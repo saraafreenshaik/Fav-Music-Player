@@ -26,37 +26,37 @@ let curr_track = document.createElement('audio');
 let track_list = [
 {
 	name: "HAULE-HAULE",
-	artist: "..........",
-	image: "Haule Song.jpeg",
+	artist: "By Sukhwinder Singh",
+	image: "Haule-Song.jpeg",
 	path: "haule.mp3"
 },
 {
 	name: "MAAN MARE JAAN",
-	artist: "!!!!!!!!!!!!!",
-	image: "maan mare jaan.jpeg",
+	artist: "By KING",
+	image: "maan-mare-jaan.jpeg",
 	path: "maanMareJaan.mp3"
 },
 {
 	name: "JHOMMBE",
-	artist: "<3<3<3<3<3",
+	artist: "Arijit",
 	image: "phatan.jpeg",
 	path: "jhommbe.mp3",
 },
 {
     name: "LOVE YOUR VOICE",
-	artist: "**********",
-	image: "shap of you.jpeg",
+	artist: "Jony",
+	image: "shape-of-you.jpeg",
 	path: "love your voice.mp3",
 },
 {
     name: "BELIVER",
-	artist: ";)))))))))",
+	artist: "Evolve",
 	image: "beliver.jpeg",
 	path: "beliver.mp3",
 },
 {
     name: "SOME",
-	artist: "..........",
+	artist: "soyou",
 	image: "some.jpeg",
 	path: "some.mp3",
 }
@@ -922,4 +922,5 @@ loadTrack(track_index);
   
 //   // Call the populatePlaylist function to initialize the player
 //   populatePlaylist();
+
   
