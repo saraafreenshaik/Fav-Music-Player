@@ -150,7 +150,8 @@ function playpauseTrack() {
     
     // Load and play the new track
     loadTrack(track_index);
-    playTrack();
+    isPlaying = false;
+    playpause_btn.innerHTML = '<i class="fa fa-play-circle fa-5x"></i>';
     }
     
     function prevTrack() {
@@ -162,7 +163,8 @@ function playpauseTrack() {
     
     // Load and play the new track
     loadTrack(track_index);
-    playTrack();
+    isPlaying = false;
+    playpause_btn.innerHTML = '<i class="fa fa-play-circle fa-5x"></i>';
     }
     
 
@@ -924,3 +926,4 @@ loadTrack(track_index);
 //   populatePlaylist();
 
   
+
